@@ -1,6 +1,5 @@
-require("@nomiclabs/hardhat-waffle");
-require("@nomiclabs/hardhat-ethers");
-require('dotenv').config()
+require("@nomicfoundation/hardhat-toolbox");
+require('dotenv').config();
 const fs = require('fs');
 // const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
 
